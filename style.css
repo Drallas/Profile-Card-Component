@@ -36,43 +36,39 @@ body {
 
 body {
     font-family: var(--kumbh-sans);
-    
     background-color: var(--dark-cyan);
-    
 }
 
 
-/* Main Section */
+
+/* Main Container */
 .container {
     height: 100vh;
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-position: left -40rem top -30rem, right -40rem bottom -30rem;
     background-repeat: no-repeat, no-repeat;
-    margin: auto auto;
 }
 
+/* Card Section */
 .card {
   background-color: white;
   overflow: auto;
-  border: 1px solid;
   border-radius: 25px;
-  width: 20rem ;
-  height: 23rem;
+  width: 20rem;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  
+  text-align: center;
 }
 
+/* Card Top part */
 .card__top {
   height: 140px;
-  
   background-image: url(/images/bg-pattern-card.svg);
   background-position: top;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 }
 
 .card__photo {
@@ -89,6 +85,61 @@ body {
   transform: translate(-50%, -100%);
 }
 
+/* Card Mid part */
+.card__mid {
+  height: 145px;
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.card__text {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 100%);
+}
+
+.card__name {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--very-dark-blue);
+  margin: 12px 0px 0px 0px;
+}
+
+.card__name span {
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+
+.card__location {
+  margin: 8px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+}
+
+
+/* Card Bottem part */
+.card__down {
+  display: flex;
+  height: 85px;
+  padding: 20px 15px;
+  justify-content: space-around;
+}
+
+.card__count {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card__description {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: var(--dark-grey);
+}
+
+
 
 /* Styling for Attribution in the Footer section */
 
@@ -99,7 +150,7 @@ body {
   bottom: 0%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -0%)
+  transform: translate(-50%, -0%);
 }
 
 .attribution a { 
