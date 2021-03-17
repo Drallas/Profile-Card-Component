@@ -1,0 +1,32 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* Primary Colors */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /* Neutral Colors */
+    --dark-grey: hsl(0, 0%, 59%);
+
+    /*  Typography - Kumbh Sans (400, 700) */
+    --kumbh-sans: 'Kumbh Sans', sans-serif;
+}
+
+/*  Small CSS Reset */
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Tags Section */
+
+body {
+    font-family: var(--kumbh-sans);
+}
