@@ -46,7 +46,7 @@ body {
 .container {
     height: 100vh;
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-position: left -40rem top -30rem, right -40rem bottom -30rem;
+    background-position: left -44rem top -33rem, right -44rem bottom -32rem;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -64,6 +64,17 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* Media Queries for desktop version */
+@media(min-width:768px) {
+  .container {
+    background-position: left -15rem top -31.5rem, right -14rem bottom -38rem;
+  }
+  .card {
+    width: 350px;
+  }
+}
+
 
 /* Card Top part */
 .card__top {

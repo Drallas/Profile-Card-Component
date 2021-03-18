@@ -70,9 +70,19 @@ Setting the background-position was more tricky, but with some trial and error i
 background-position: left -40rem top -30rem, right -40rem bottom -30rem;
 ```
 
+**Card Picture**
+
+Had to figure out how to place picture and make it overflow the card background. 
+
+```css
+box-sizing: content-box;  # To exclude the 5px border box size.
+position: absolute;	# To give the initial postion.
+transform: translate(-50%, -100%); # To move it over to the correct spot.
+```
+
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I still struggle with the many options to layout and position divs, other point of improvement are that i struggle a bit with correct BEM class naming; i'm going to ask some advice. For the card rem value's didn't work so good and px seemed to be better to recreate the card exact (almost pixel perfect).
 
 ### Useful resources
 
