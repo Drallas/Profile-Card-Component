@@ -57,6 +57,7 @@ body {
   border-radius: 25px;
   width: 326px;
   height: 374px;
+  max-width: 350px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -95,7 +96,7 @@ body {
   left: 50%;
   top: 50%;
   border: 5px solid white;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -94%);
 }
 
 /* Card Mid part */
@@ -116,7 +117,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: var(--very-dark-blue);
-  margin: 12px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .card__name span {
@@ -136,7 +137,7 @@ body {
 .card__down {
   display: flex;
   height: 86px;
-  padding: 20px 15px;
+  padding: 25px 15px;
   justify-content: space-around;
 }
 
