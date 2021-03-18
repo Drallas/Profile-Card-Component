@@ -45,7 +45,7 @@ body {
 /* Main Container */
 .container {
     height: 100vh;
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-position: left -44rem top -33rem, right -44rem bottom -32rem;
     background-repeat: no-repeat, no-repeat;
 }
@@ -79,7 +79,7 @@ body {
 /* Card Top part */
 .card__top {
   height: 140px;
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(./images/bg-pattern-card.svg);
   background-position: top;
   background-repeat: no-repeat;  
 }
@@ -87,7 +87,7 @@ body {
 .card__photo {
   box-sizing: content-box;
   position: absolute;
-  background-image: url(/images/image-victor.jpg);
+  background-image: url(./images/image-victor.jpg);
   background-repeat: no-repeat;
   width: 96px;
   height: 96px;

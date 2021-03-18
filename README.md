@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Drallas/Profile-Card-Component)
-- Live Site URL: [GitHub Pages](https://github.com/Drallas/Profile-Card-Component)
+- Live Site URL: [GitHub Pages](https://drallas.github.io/Profile-Card-Component/)
 
 ## My process
 
