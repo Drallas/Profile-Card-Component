@@ -65,15 +65,46 @@ Setting the background-position was more tricky, but with some trial and error i
 background-position: left -40rem top -30rem, right -40rem bottom -30rem;
 ```
 
-**Card Picture**
-
-Had to figure out how to place picture and make it overflow the card background. 
+**Card Placement**
 
 ```css
 box-sizing: content-box;  # To exclude the 5px border box size.
 position: absolute;	# To give the initial postion.
 transform: translate(-50%, -100%); # To move it over to the correct spot.
 ```
+
+**Linear gradient with Background**
+
+Had to figure out how to place picture and make it overflow the card background. My initial solution was a **div** with a **background-image** applied. After some feedback on Frontend Mentor I applied a better solution, reducing the empty div (no semantic value) and the accompanying CSS. 
+
+```css
+
+/* Card Section */
+.card {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0% 37.5%, white 37.5% 100%), url(./images/bg-pattern-card.svg);
+}
+
+/*
+
+Overlapping Gradient
+- Direction to bottom (180deg)
+- linear-gradient(180deg, rgba(0, 0, 0, 0) 
+	- Transparant color (from 0 to 37.5%)
+	- White color from 37.5% to 100%)
+
+Background Image
+- url(./images/bg-pattern-card.svg) to cover the whole card with a svg image
+*/
+
+```
+
+Some links that where helpful to understand Linear Gradients Better.
+
+[Linear Gradients Explained](https://cssgradient.io/blog/linear-gradient-css/)
+
+[CSS Gradients – Examples]( https://www.cssportal.com/blog/css-gradients-linear-gradients/)
+
+
 
 ### Continued development
 
